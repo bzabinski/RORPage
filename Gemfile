@@ -9,20 +9,18 @@ gem 'bcrypt-ruby'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-gem 'rails_12factor'
 
 group :development do
     gem 'sqlite3'
     gem 'annotate'
 end
 
-group :assets do
-    gem 'sass-rails'
-    gem 'coffee-rails'
-    gem 'uglifier'
-end
-
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'uglifier'
 gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder'
 
 group :test, :development do
     gem 'rspec-rails'
@@ -40,4 +38,5 @@ end
 
 group :production do 
     gem 'pg'
+    gem 'rails_12factor'
 end
