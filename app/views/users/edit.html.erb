@@ -1,0 +1,11 @@
+<% provide(:title, "Edit user") %>
+<% provide(:change, "Save Changes") %>
+
+<div class="row">
+    <div class="span6 offset3">
+        <% render 'shared/_edit.html.erb' %>
+        
+        <%= gravatar_for @user %>
+        <a href="http://gravatar.com/emails">change</a>
+    </div>
+</div>
