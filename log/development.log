@@ -5,3 +5,4 @@ Migrating to AddAdminToUsers (20131122003709)
   [1m[35mSQL (6.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131122003709"]]
   [1m[36m (193.6ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mUser Load (2.9ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1[0m
